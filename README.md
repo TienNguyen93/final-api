@@ -5,7 +5,7 @@
   | API                              | Description                        | Resquest Body | Response Body
   | :-----------                     | :-----------                       | :------------ | :------------
   | **GET** /api/customer            | Get all customers                  | None          | <img src="/images/get-all.png" width=80% height=80%>
-  | **GET** /api/customer/{id}       | Get a customer by ID               | None          |
+  | **GET** /api/customer/{id}       | Get a customer by ID               | None          | <img src="/images/get-one.png" width=80% height=80%>
   | **POST** /api/customer           | Add a new customer                 | <img src="https://user-images.githubusercontent.com/43976085/204141691-39b4bb58-b618-4fcc-8468-eb9afd7d2fdb.png" width=80% height=80%> | <img src="https://user-images.githubusercontent.com/43976085/204141691-39b4bb58-b618-4fcc-8468-eb9afd7d2fdb.png" width=80% height=80%>
   | **PUT** /api/customer/{id}       | Updating an existing customer      | <img src="https://user-images.githubusercontent.com/43976085/204141691-39b4bb58-b618-4fcc-8468-eb9afd7d2fdb.png" width=80% height=80%>
   | **DELETE** /api/customer/{id}    | Delete a customer                  | None
