@@ -11,7 +11,7 @@
   | **DELETE** /api/customers/{id}    | Delete a customer                  | None          | <img src="/images/delete-response.png" width=100% height=100%>
   | **GET** /api/customers/{id}/order | Get customer's order's information | None          | <img src="/images/get-order.png" width=100% height=100%>
   
-## Changes to my API idea:
+## Changes to my API idea
 * I reduced my database from four tables to two tables since it is complicated to construct four tables
 * I omitted Firstname, Lastname, Phone, EmailAddress columns in Customer table. So the final version has CustomerName, Street, City, State, Zip, Order which I found it was easier to maintain
 * I set OrderID as the Foreign Key in the Customer table instead of setting CustomerID as the Foreign Key in Order table 
