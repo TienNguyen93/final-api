@@ -2,9 +2,13 @@
 
 ## Different endpoints that a client can use
 ### Sample response body: 
-* Status Code
-* Status Description
-* Data
+```json
+{
+  "statusCode": 200,
+  "statusDescription": "Call succeeds because ...",
+  "data": "..."
+}
+```
 
   | API                              | Description                        | Resquest Body | Response Body
   | :-----------                     | :-----------                       | :------------ | :------------
